@@ -1,0 +1,14 @@
+pillow
+numpy
+torch
+diffusers
+transformers
+accelerate
+protobuf
+sentencepiece
+huggingface-hub
+supervision
+ultralytics
+uvicorn
+fastapi
+python-multipart
