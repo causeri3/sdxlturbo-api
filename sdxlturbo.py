@@ -26,7 +26,7 @@ PROMPT = "DMT"
 
 
 REZ = (512, 512)
-AMOUNT_PICS = 22
+AMOUNT_PICS = 15
 # ___________ YALLA _________________ #
 
 def generate_image_list(pil_image, prompt:str = PROMPT):
