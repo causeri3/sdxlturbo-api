@@ -10,8 +10,8 @@ pipe = AutoPipelineForImage2Image.from_pretrained("stabilityai/sdxl-turbo",
                                                   torch_dtype=torch.float16,
                                                   variant="fp16"
                                                   )
-#pipe.to("cuda")
-pipe.to("mps")
+pipe.to("cuda")
+# pipe.to("mps")
 
 
 # ___________ PARAMS _________________ #
