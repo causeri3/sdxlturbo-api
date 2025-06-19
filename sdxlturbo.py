@@ -18,9 +18,9 @@ pipe.to("cuda")
 # Official Documenation
 # When using SDXL-Turbo for image-to-image generation, make sure that num_inference_steps * strength is larger or equal to 1.
 # The image-to-image pipeline will run for int(num_inference_steps * strength) steps, e.g. 0.5 * 2.0 = 1 step in our example below.
-NUM_INFERENCE_STEPS=25
+NUM_INFERENCE_STEPS=50
 STRENGTH_MIN = 0.05
-STRENGTH_MAX = 0.4
+STRENGTH_MAX = 0.35
 GUIDANCE_SCALE=8
 PROMPT = "DMT"
 
