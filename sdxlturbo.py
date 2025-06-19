@@ -20,7 +20,7 @@ pipe.to("cuda")
 # The image-to-image pipeline will run for int(num_inference_steps * strength) steps, e.g. 0.5 * 2.0 = 1 step in our example below.
 NUM_INFERENCE_STEPS=25
 STRENGTH_MIN = 0.05
-STRENGTH_MAX = 0.45
+STRENGTH_MAX = 0.35
 GUIDANCE_SCALE=8
 PROMPT = "DMT"
 
