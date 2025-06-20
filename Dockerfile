@@ -1,11 +1,7 @@
-# Its deployed on RunPod
-FROM runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu22.04
+FROM pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime
 
-# default RunPod working directory
-WORKDIR /workspace
-
-RUN git clone https://github.com/causeri3/sdxlturbo-api.git
-WORKDIR /workspace/sdxlturbo-api
+WORKDIR /sdxlturbo-api
+COPY . /sdxlturbo-api
 
 RUN pip install --no-cache-dir -r requirements.txt
 
